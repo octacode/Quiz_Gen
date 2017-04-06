@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow_toolbar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary"
+            android:orientation="vertical"
+            android:paddingBottom="25dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="72dp"
+            android:paddingRight="16dp"
+            android:paddingStart="72dp"
+            android:paddingTop="25dp">
+
+            <view
+                style="@style/TextView.Caption"
+                class="org.quizGen.shasha.views.TextViewPlus"
+                android:text="@string/label_quiz"
+                android:textColor="@color/color_accent" />
+
+            <EditText
+                android:id="@+id/template_title"
+                style="@style/EditText.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_quiz_name"
+                android:singleLine="true"
+                android:textSize="@dimen/headline_leading"
+                android:theme="@style/EditText.Dark" />
+
+            <view
+                style="@style/TextView.Caption"
+                class="org.quizGen.shasha.views.TextViewPlus"
+                android:text="@string/label_author"
+                android:textColor="@color/color_accent" />
+
+            <EditText
+                android:id="@+id/author_name"
+                style="@style/EditText.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_author"
+                android:inputType="textPersonName"
+                android:theme="@style/EditText.Dark" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/shadow_meta"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:background="@drawable/shadow_toolbar"
+            android:backgroundTint="@color/color_divider"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/template_meta_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="8dp" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/app_settings">
+
+        <Preference
+            android:key="@string/key_user_name"
+            android:title="@string/your_name" />
+
+        <Preference
+            android:key="@string/key_delete_temporary_files"
+            android:summary="@string/summary_temp_files"
+            android:title="@string/delete_temp_files" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/advance_settings">
+
+        <Preference
+            android:key="@string/key_restore_project"
+            android:summary="@string/summary_restore_project"
+            android:title="@string/restore_project" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

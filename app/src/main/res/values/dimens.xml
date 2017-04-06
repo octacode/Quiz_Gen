@@ -1,0 +1,147 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <!-- Main menu dimensions-->
+    <dimen name="main_menu_padding">16dp</dimen>
+    <dimen name="main_menu_text_size">14sp</dimen>
+    <dimen name="main_menu_drawable_padding">16dp</dimen>
+    <dimen name="main_menu_item_height">48dp</dimen>
+    <dimen name="button_enter_simulator">48dp</dimen>
+    <dimen name="simulator_detail_toolbar">48dp</dimen>
+    <dimen name="layout_margin">8dp</dimen>
+    <dimen name="cardview_top_padding">24dp</dimen>
+    <dimen name="headline">24sp</dimen>
+    <dimen name="headline_leading">32sp</dimen>
+    <dimen name="headline_leading_simulator">26sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="title_simulator">16.36sp</dimen>
+    <dimen name="sub_title">16sp</dimen>
+    <dimen name="caption">12sp</dimen>
+    <dimen name="body">14sp</dimen>
+    <dimen name="empty">14sp</dimen>
+
+    <!-- Styles-->
+
+    <!-- Floating action button-->
+    <dimen name="floating_action_button_padding_bottom_right">16dp</dimen>
+
+    <!-- CardView Body-->
+    <dimen name="cardview_body_padding_left_right">16dp</dimen>
+    <dimen name="cardview_body_padding_top">16dp</dimen>
+    <dimen name="cardview_body_padding_bottom">24dp</dimen>
+    <dimen name="cardview_body_text_size">14sp</dimen>
+    <dimen name="cardview_margin">24dp</dimen>
+    <!-- CardView Title-->
+    <dimen name="cardview_title_text_size">24sp</dimen>
+    <dimen name="cardview_title_padding_left_right">16dp</dimen>
+    <dimen name="cardview_title_padding_top">24dp</dimen>
+    <dimen name="cardview_padding_last_bottom">38dp</dimen>
+
+    <!-- Button-->
+
+
+    <!-- Button Raised-->
+
+    <!-- Template CardView-->
+    <dimen name="cardview_template_height">180dp</dimen>
+
+    <!-- Flash card template-->
+
+    <dimen name="navigation_drawer_header_height">160dp</dimen>
+    <dimen name="thumb_size">250dp</dimen>
+    <dimen name="thumb_padding">8dp</dimen>
+    <dimen name="thumb_paddingTop">16dp</dimen>
+    <dimen name="thumb_paddingRight">18dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing_flash">13.89dp</dimen>
+    <dimen name="nav_header_height_flash">138.9dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin_flash">13.89dp</dimen>
+    <dimen name="activity_vertical_margin_flash">13.89dp</dimen>
+    <dimen name="splash_text_margin_flash">21.71dp</dimen>
+    <dimen name="paddingTop_flash">13.89dp</dimen>
+    <dimen name="cardHeightLastActivity_flash">304.04dp</dimen>
+    <dimen name="margin_mini_flash">3.47dp</dimen>
+    <dimen name="material_button_height_flash">41.69dp</dimen>
+    <dimen name="margin_large_flash">13.89dp</dimen>
+    <dimen name="font_small_flash">13.89sp</dimen>
+
+    <!-- Video Collection Template-->
+
+    <dimen name="splash_button_margin_top_video">41dp</dimen>
+    <dimen name="splash_text_margin_video">20.45dp</dimen>
+    <dimen name="thumb_size_video">81.8dp</dimen>
+    <dimen name="padding_video">6.54dp</dimen>
+    <dimen name="paddingTop_video">13dp</dimen>
+    <dimen name="cardHeightLastActivity_video">286dp</dimen>
+    <dimen name="paddingRight_video">4dp</dimen>
+    <dimen name="paddingLittle_video">1.6dp</dimen>
+    <dimen name="toolbar_height_video">122.7dp</dimen>
+    <dimen name="medium_margin_video">12dp</dimen>
+    <dimen name="negative_margin_video">-28.6dp</dimen>
+    <dimen name="toolbar_height_small_video">61.36dp</dimen>
+    <dimen name="title_size_video">13sp</dimen>
+    <dimen name="web_view_height_video">261dp</dimen>
+    <dimen name="card_thumb_size">143dp</dimen>
+    <dimen name="web_view_negative_margin">-5.72dip</dimen>
+
+    <!-- Comprehension Template-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="comprehension_nav_header_vertical_spacing">13dp</dimen>
+    <dimen name="comprehension_nav_header_height">131dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="comprehension_radio_button_margin_top">69.49dp</dimen>
+    <dimen name="comprehension_splash_button_margin_top">41dp</dimen>
+    <dimen name="comprehension_cardHeightLastActivity">286.36dp</dimen>
+    <dimen name="activity_vertical_margin_simulator">13dp</dimen>
+
+    <!-- Info Template-->
+    <dimen name="padding_info">6.54dp</dimen>
+    <dimen name="paddingTop_info">13dp</dimen>
+    <dimen name="toolbar_height_info">122.72dp</dimen>
+    <dimen name="medium_margin_info">12.2dp</dimen>
+    <dimen name="negative_margin_info">-28.63dp</dimen>
+
+    <!-- Dictation Template Simulator-->
+    <dimen name="padding_dict">6.94dp</dimen>
+    <dimen name="paddingTop_dict">13.89dp</dimen>
+    <dimen name="toolbar_height_dict">130.3dp</dimen>
+    <dimen name="medium_margin_dict">13dp</dimen>
+    <dimen name="negative_margin_dict">-30.4dp</dimen>
+    <dimen name="toolbar_height_small_dict">47.77dp</dimen>
+
+    <!--Match Template-->
+
+    <dimen name="paddingTop_match">13.89dp</dimen>
+
+    <!--Spell Template-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing_spell">13.89dp</dimen>
+    <dimen name="nav_header_height_spell">138dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin_spell">13.89dp</dimen>
+    <dimen name="activity_vertical_margin_spell">13.89dp</dimen>
+
+    <dimen name="splash_button_margin_top_spell">43.43dp</dimen>
+    <dimen name="splash_text_margin_spell">21.71dp</dimen>
+    <dimen name="paddingTop_spell">13.89dp</dimen>
+
+    <!--Simulator's dimens are .86868686 times smaller-->
+
+    <!--padding defaults-->
+    <dimen name="padding_small">16dp</dimen>
+    <dimen name="spacing_left">24dp</dimen>
+    <dimen name="spacing_top">20dp</dimen>
+    <dimen name="spacing_right">24dp</dimen>
+    <dimen name="spacing_bottom">24dp</dimen>
+
+    <!--Navigation Drawer icon size-->
+    <dimen name="design_navigation_icon_size" tools:override="true">40dp</dimen>
+</resources>

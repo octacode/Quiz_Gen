@@ -1,0 +1,282 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <style name="Base.AppTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorButtonNormal">@color/color_primary_dark</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
+        <item name="activatedBackgroundIndicator">@drawable/activated_background</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+        <item name="android:textColor">@color/black_primary_text</item>
+    </style>
+
+    <style name="MaterialDialogSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+    <style name="AppTheme" parent="Base.AppTheme">
+        <item name="android:textColorPrimary">@color/black_primary_text</item>
+        <item name="android:textColorSecondary">@color/black_secondary_text</item>
+        <item name="android:listViewStyle">@style/ListView.Buildmlearn</item>
+        <item name="android:scrollViewStyle">@style/ScrollView.Buildmlearn</item>
+        <item name="alertDialogTheme">@style/AppDialogTheme</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/black_primary_text</item>
+        <item name="android:textColorSecondary">@color/black_secondary_text</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:background">@color/white_primary_text</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" tools:ignore="newApi">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Allows the action mode icons to be shown on top of the Toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Buildmlearn.FullScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- Allows the action mode icons to be shown on top of the Toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Buildmlearn.Simulator" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- Allows the action mode icons to be shown on top of the Toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="MainMenuItem" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/main_menu_item_height</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">@dimen/main_menu_padding</item>
+        <item name="android:textSize">@dimen/main_menu_text_size</item>
+        <item name="android:textColor">@color/black_primary_text</item>
+        <item name="background" tools:ignore="PrivateResource">
+            @color/abc_background_cache_hint_selector_material_light
+        </item>
+        <item name="android:drawablePadding">@dimen/main_menu_drawable_padding</item>
+    </style>
+
+    <style name="AuxMenuItem" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/main_menu_item_height</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">@dimen/main_menu_text_size</item>
+        <item name="android:paddingLeft">@dimen/main_menu_padding</item>
+        <item name="android:drawablePadding">@dimen/main_menu_drawable_padding</item>
+        <item name="android:textColor">@color/black_primary_text</item>
+
+    </style>
+
+    <style name="Toolbar.Buildmlearn" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="Toolbar.Buildmlearn.Simulator" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/simulator_action_bar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="ListView.Buildmlearn" parent="android:Widget.ListView.White">
+        <item name="android:listSelector">?attr/selectableItemBackground</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="ScrollView.Buildmlearn" parent="android:Widget.ScrollView">
+        <!-- Fading edges were enabled by default on older devices and are now deprecated. -->
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="TextView.Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_secondary_text</item>
+        <item name="android:textSize">@dimen/cardview_body_text_size</item>
+        <item name="customFont">roboto_medium.ttf</item>
+    </style>
+
+
+    <style name="TextView.Body1.Thin" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_secondary_text</item>
+        <item name="android:textSize">@dimen/cardview_body_text_size</item>
+        <item name="customFont">roboto_light.ttf</item>
+    </style>
+
+    <style name="TextView.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_primary_text</item>
+        <item name="android:textSize">@dimen/title</item>
+        <item name="customFont">roboto_light.ttf</item>
+    </style>
+
+    <style name="TextView.Title.Bold" parent="TextAppearance.AppCompat.Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_primary_text</item>
+        <item name="android:textSize">@dimen/title</item>
+        <item name="customFont">roboto_medium.ttf</item>
+    </style>
+
+    <style name="TextView.Title.Thin" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sub_title</item>
+        <item name="android:textColor">@color/black_primary_text</item>
+        <item name="customFont">roboto_medium.ttf</item>
+    </style>
+
+    <style name="TextView.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_hint_text_disabled</item>
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="customFont">roboto_regular.ttf</item>
+    </style>
+
+    <style name="TextView.Empty" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_secondary_text</item>
+        <item name="android:textSize">@dimen/empty</item>
+        <item name="customFont">roboto_regular.ttf</item>
+    </style>
+
+    <style name="TextView.CircleIcon" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/white_primary_text</item>
+        <item name="android:textSize">@dimen/headline</item>
+        <item name="android:background">@drawable/bg_circular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="customFont">roboto_light.ttf</item>
+    </style>
+
+    <style name="TextView.Caption.Light" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_hint_text_disabled</item>
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="customFont">roboto_regular.ttf</item>
+    </style>
+
+    <style name="CardView.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/cardview_body_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/cardview_body_padding_left_right</item>
+        <item name="android:paddingBottom">@dimen/cardview_body_padding_bottom</item>
+        <item name="android:paddingTop">@dimen/cardview_body_padding_top</item>
+        <item name="android:textColor" tools:ignore="PrivateResource">
+            @color/abc_primary_text_material_dark
+        </item>
+        <item name="android:textSize">@dimen/cardview_body_text_size</item>
+        <item name="customFont">roboto_regular.ttf</item>
+    </style>
+
+    <style name="CardView.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/cardview_title_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/cardview_title_padding_left_right</item>
+        <item name="android:paddingTop">@dimen/cardview_title_padding_top</item>
+        <item name="android:textColor" tools:ignore="PrivateResource">
+            @color/abc_primary_text_material_dark
+        </item>
+        <item name="android:textSize">@dimen/cardview_title_text_size</item>
+        <item name="customFont">roboto_medium.ttf</item>
+    </style>
+
+    <style name="Button.Raised" parent="Widget.AppCompat.Button">
+        <item name="android:textColor" tools:ignore="PrivateResource">
+            @color/abc_secondary_text_material_dark
+        </item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- EditText-->
+    <style name="EditText.Dark">
+        <item name="android:textColor" tools:ignore="PrivateResource">
+            @color/abc_primary_text_material_dark
+        </item>
+        <item name="colorControlNormal">@color/white_hint_text_disabled</item>
+        <item name="colorControlActivated">@color/color_accent</item>
+        <item name="android:textColorHint">@color/white_hint_text_disabled</item>
+    </style>
+
+    <style name="EditText.Light">
+        <item name="android:textColor" tools:ignore="PrivateResource">
+            @color/abc_primary_text_material_dark
+        </item>
+        <item name="colorControlNormal">@color/white_hint_text_disabled</item>
+        <item name="colorControlActivated">@color/color_accent</item>
+        <item name="android:textColorHint">@color/white_hint_text_disabled</item>
+    </style>
+
+    <style name="EditText" />
+
+    <style name="NoActionBarThemeTransparentStatusBar" parent="@style/AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:windowBackground">@color/color_primary</item>
+    </style>
+
+    <!-- VideoCollection Template Styles -->
+
+    <!-- ToolBar -->
+    <style name="ToolBarStyle_video" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/black_secondary_text</item>
+        <item name="android:textColorSecondary">@color/black_secondary_text</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolBarStyle_video_heading" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/white_primary_text</item>
+        <item name="android:textColorSecondary">@color/white_secondary_text</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

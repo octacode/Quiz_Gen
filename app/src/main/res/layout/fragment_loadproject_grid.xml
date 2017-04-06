@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="org.quizGen.shasha.fragment.LoadProjectFragment">
+
+    <GridView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/floating_action_button_padding_bottom_right"
+        android:layout_marginEnd="@dimen/floating_action_button_padding_bottom_right"
+        android:layout_marginRight="@dimen/floating_action_button_padding_bottom_right"
+        android:src="@drawable/ic_add_white_24dp"
+        fab:backgroundTint="@color/color_accent"
+        fab:fabSize="normal" />
+
+    <TextView
+        android:id="@+id/no_saved_project"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/main_menu_padding"
+        android:text="@string/no_saved_projects" />
+
+    <TextView
+        android:id="@+id/no_saved_apks"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/main_menu_padding"
+        android:text="@string/no_saved_apks" />
+
+    <TextView
+        android:id="@+id/no_saved_drafts"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/main_menu_padding"
+        android:text="@string/no_saved_drafts" />
+
+
+
+</RelativeLayout>
