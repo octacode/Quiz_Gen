@@ -2,6 +2,7 @@ package org.quizGen.shasha.activity;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -179,15 +180,15 @@ public class HomeActivity extends AppCompatActivity
 //                    }
 //                });
 //                break;
-//            case R.id.nav_about:
-//                final Intent intent2 = new Intent(this, AboutQuizGen.class);
-//                smoothNavigationToggle.runWhenIdle(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        startActivity(intent2);
-//                    }
-//                });
-//                break;
+            case R.id.nav_about:
+                final Intent intent2 = new Intent(this, AboutQuizGen.class);
+                smoothNavigationToggle.runWhenIdle(new Runnable() {
+                    @Override
+                    public void run() {
+                        startActivity(intent2);
+                    }
+                });
+                break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

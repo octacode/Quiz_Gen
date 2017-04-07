@@ -55,6 +55,7 @@
                         android:textSize="@dimen/title" />
 
                     <TextView
+                        android:visibility="gone"
                         android:id="@+id/app_version"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -100,6 +101,16 @@
                 android:textColor="@color/black_secondary_text"
                 android:textSize="@dimen/body" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:autoLink="email"
+                android:textStyle="bold"
+                android:text="Written by Kumar Shashwat (15554) CSE 2nd year"
+                android:textColor="@color/black_secondary_text"
+                android:textSize="@dimen/body" />
 
         </LinearLayout>
     </ScrollView>

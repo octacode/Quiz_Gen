@@ -62,7 +62,7 @@
     <string name="next_info">NEXT</string>
     <string name="no_saved_projects">No Saved Projects yet</string>
     <string name="exit_info">EXIT</string>
-    <string name="about_text_info">This application has been developed using the Quiz Generator.\n\nTo know more about BuildmLearn Toolkit visit <a href="https://buildmlearn.org/">here</a>.</string>
+    <string name="about_text_info">This application has been developed using the Quiz Generator.\n\nSource Code at <a href="https://github.com/octacode">here</a>.</string>
     <string name="info_thumbnail_info">Info Thumbnail</string>
     <string name="enter_word">Enter a word.</string>
 
@@ -299,8 +299,8 @@
 
     <!-- About BuildmLearn-->
     <string name="about_para_1">Quiz Generator is an easy-to-use program that helps users make mobile apps without any knowledge of application development.</string>
-    <string name="about_para_2">Visit us at http://buildmlearn.org/.</string>
-    <string name="about_para_3">Any feedback or suggestions related to Quiz Generator are always welcome. Please write to us at buildmlearn@gmail.com.</string>
+    <string name="about_para_2">Visit us at http://exe.nith.ac.in/.</string>
+    <string name="about_para_3">Any feedback or suggestions related to Quiz Generator are always welcome. Please write to us at allblue.shasha@gmail.com.</string>
     <string name="title_activity_deep_linker">BuildmLearn Tookit</string>
 
     <string name="apk_progress_dialog">Generating Apk</string>

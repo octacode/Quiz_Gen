@@ -33,7 +33,7 @@ public class AboutQuizGen extends AppCompatActivity {
         } catch (PackageManager.NameNotFoundException e) {
             assert findViewById(R.id.app_version) != null;
             assert ((TextView) findViewById(R.id.app_version)) != null;
-            ((TextView) findViewById(R.id.app_version)).setText("Version: 2.5.0");
+            ((TextView) findViewById(R.id.app_version)).setText("Version: 1.0.0");
             e.printStackTrace();
         }
 
